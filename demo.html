@@ -7,19 +7,20 @@
 </head>
 
 <body>
-	<audio autoplay loop>
+	<audio id="music" autoplay loop>
     	<source src="./music.mp3" type="audio/mpeg">
 	</audio>
-	<div id="background"></div>
+	<div id='hidden_bg' class="bg"></div>
+	<div id="background" class="bg"></div>
 	<div id="question">
 		<a id="q_text">Làm người yêu tớ nhá!? ❤️😍</a>
 	</div>
-	<div id="yes">
+	<button id="yes">
 		<p id="y_text">Tớ đồng ý 😘</p>
-	</div>
-	<div id="no">
+	</button>
+	<button id="no">
 		<p id="n_text">Ai thèm 💩</p>
-	</div>
+	</button>
 	<script type="text/javascript" src="demo.js" defer></script>
 </body>
 </html>

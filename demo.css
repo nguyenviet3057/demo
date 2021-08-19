@@ -1,4 +1,4 @@
-#background
+.bg
 {
 	position: fixed;
 	margin: 0%;
@@ -6,9 +6,16 @@
 	left: 0%;
 	width: 100%;
 	height: 100%;
-	background-image: url("background.jpg");
 	background-size: cover;
 	background-position: center;
+}
+#hidden_bg
+{
+	background-image: url("./switch_background.jpg");
+}
+#background
+{
+	background-image: url("./background.jpg");
 }
 #question
 {
