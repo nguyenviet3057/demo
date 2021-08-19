@@ -11,7 +11,7 @@ no_answer.onmouseover = change_pos;
 var yes_answer = document.querySelector('#yes');
 var background = document.getElementById('background');
 var music = document.getElementById('music');
-music.src = "./play.mp3";
+
 function change_background()
 {
 	question.style.opacity = "0%";
