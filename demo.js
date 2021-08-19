@@ -17,9 +17,14 @@ function change_background()
 	question.style.opacity = "0%";
 	no_answer.style.opacity = "0%";
 	yes_answer.style.opacity = "0%";
-	music.setAttribute("src","./play.mp3");
+	music.setAttribute("src","play.mp3");
 	background.style.transition = 'all linear 2s';
 	background.style.opacity = "0%";
 }
-
 yes_answer.onclick = change_background;
+
+function play_music()
+{
+	music.play();
+}
+document.getElementById('body').onmouseover = play_music;
