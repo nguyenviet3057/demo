@@ -34,9 +34,11 @@
 	left: 30%;
 	width: 40%;
 	height: 10%;
-	background-color: burlywood;
-	border: solid 10px #006CFF;
+	background-image: url("background.gif");
+	background-size: cover;
+	background-position: center;
 	border-radius: 50px;
+	mix-blend-mode: screen;
 }
 #q_text
 {
@@ -46,9 +48,10 @@
 	top: 10%;
 	width: 100%;
 	height: 80%;
+	font-family: "cookie";
 	text-align: center;
 	font-size: 50px;
-	color: red;
+	color: lightgray;
 }
 #yes
 {
